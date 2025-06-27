@@ -47,6 +47,10 @@
     text-decoration: none;
   }
 
+  .container-fluid {
+    display: none;
+  }
+
   /* DROPDOWN */
 
 .dropdown-menu {
@@ -231,6 +235,22 @@
 @media (max-width: 768px) {
   body {
     font-size: 11px;
+  }
+
+  header a img {
+    display: none;
+  }
+
+  .navbar .container-fluid {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .navbar-toggler {
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    padding: 0 !important;
   }
 
   header nav ul {
