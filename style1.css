@@ -47,6 +47,24 @@
     text-decoration: none;
   }
 
+  /* DROPDOWN */
+
+.dropdown-menu {
+  background-color: #272727 !important;
+  color: #fff !important;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #fff !important;
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+  background-color: #333 !important;
+  color: #fff !important;
+}
+
+
   /* HERO ---------------------------------------------------------------------------------------------------------- */
   
   .hero {
